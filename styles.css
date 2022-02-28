@@ -1,0 +1,102 @@
+body {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #A7F3FF;
+    color: black;
+}
+
+.header {
+    color: black;
+}
+
+
+.icon {
+    color: black;
+}
+
+/* .text {
+    background-color: black;
+    padding: 10px;
+} */
+
+.link {
+    padding-top: 20px;
+}
+
+.btn {
+    border-radius: 0%;
+    border: solid black 2px;
+    font-size: 3vh;
+}
+
+.btn:hover {
+    color: #A7F3FF;
+}
+
+.headline {
+    font-size: 17vh;
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    /* text-decoration: underline; */
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+    letter-spacing: 5px;
+
+}
+
+.sub-headline {
+    font-size: 7vh;
+}
+
+.sign-up-prompt {
+    font-size: 7vh;
+}
+
+.mobile-logo {
+    display: none;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.mobile-signup {
+    display: none;
+}
+
+@media (max-width: 544px) {  
+    .mobile-logo {display: block;}
+    .headline {
+        font-size: 9vh;
+        text-align: center;
+    }
+    .sub-headline {
+        font-size: 4vh;
+        text-align: center;
+    }
+    .sign-up-prompt {
+        font-size: 4vh;
+        text-align: center;
+    }
+    .side {
+        display: none;
+    }
+    .mobile-signup {
+        display: block;
+        margin: 0 auto;
+    }
+    .link {
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .headline {
+        font-size: 9vh;
+    }
+    .sub-headline {
+        font-size: 4vh;
+    }
+    .sign-up-prompt {
+        font-size: 4vh;
+    }
+}
