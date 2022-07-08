@@ -32,15 +32,21 @@ body {
     color: #A7F3FF;
 }
 
+.lightbulb {
+    color: black;
+    text-decoration: none;
+  }
+
+/* .lightbulb:hover {
+    color: #fffea8;
+} */
+
 .headline {
     font-size: 17vh;
 }
 
 .logo {
     font-family: 'Bebas Neue', cursive;
-    /* text-decoration: underline; */
-    border-top: solid 4px black;
-    border-bottom: solid 4px black;
     letter-spacing: 5px;
 
 }
@@ -61,6 +67,50 @@ body {
 
 .mobile-signup {
     display: none;
+}
+
+.about-info {
+    font-size: 4vh;
+    line-height: 1.6;
+}
+
+.info {
+    line-height: 1.6;
+}
+
+.privacy-info {
+    font-size: 4vh;
+    line-height: 1.6;
+}
+
+.form-mobile {
+    display: none;
+}
+
+.form-logo {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+
+}
+
+input[type=text], [type=email], [type=url], select {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 2px solid black; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #A7F3FF;
+    outline: none;
+  }
+  
+  .footer {
+    padding: 2px;
+    /* color: #999; */
+    /* text-align: center; */
+    /* background-color: #f9f9f9; */
+    /* border-top: 0.05rem solid #e5e5e5; */
 }
 
 @media (max-width: 544px) {  
@@ -87,6 +137,37 @@ body {
     .link {
         font-size: 2.5vh;
     }
+    .info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-info {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3vh;
+    }
+
+    .privacy-info {
+        font-size: 3vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .form-mobile {
+        display: block;
+    }
+
+    .signup-success {
+        text-align: center;
+    }
+
+    .sign-up-button {
+        text-align: center;
+    }
+
+    /* .form-logo {
+        display: none;
+    } */
 }
 
 @media (max-width: 1024px) {
