@@ -172,7 +172,7 @@ input[type=text], [type=email], [type=url], select {
 
 @media (max-width: 1024px) {
     .headline {
-        font-size: 9vh;
+        font-size: 7vh;
     }
     .sub-headline {
         font-size: 4vh;
